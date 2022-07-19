@@ -124,5 +124,4 @@ def rank(config, path, metric, revision_index, limit, threshold, descending):
         logger.error(
             f"Total value below the specified threshold: {total} < {threshold}"
         )
-
-    return data
+        exit(1)
