@@ -165,3 +165,5 @@ def diff(config, files, metrics, changes_only=True, detail=True, revision=None):
                 headers=headers, tabular_data=results, tablefmt=DEFAULT_GRID_STYLE
             )
         )
+
+    return results
